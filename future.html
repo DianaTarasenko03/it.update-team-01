@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Твои дейсвия</title>
+  <title>Ближайшие мероприятия</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,60 +12,71 @@
     <nav>
       <ul>
         <li><a href="main.html">Главная</a></li>
-        <li><a class="current" href="steps.html">Твои дейсвия</a></li>
+        <li><a class="current" href="future.html">Ближайшие мероприятия</a></li>
+        <li><a href="last.html">Прошедшие мероприятия</a></li>
         <li><a href="students.html">Голос студента</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="page-container">
-    
-    <section class="hero">
-      <h2 class="main_text">Хакатон в эту пятницу</h2>
-      
-      <aside class="benefits-list">
-        <ul>
-          <li>+1 сертификат в портфолио</li>
-          <li> +еда</li>
-          <li>+знакомство с тимлидами из IT-компаний</li>
-        </ul>
-      </aside>
-      
-      <p class="event-info">15 ноября, 16:00, ауд. 402. Разработка мини-игры на Python.</p>
-    </section>
     <section class="intro">
-      <h2 class="main_text">Как всё будет проходить?</h2>
-      <p>Несколько понятных шагов - и ты уже в деле</p>
+      <h1 class="main_text">Ближайшие мероприятия</h1>
+      <p>Успей занять место — количество мест ограничено!</p>
     </section>
 
+    <div class="events-list">
+      
+      <article class="event-card">
+        <div class="event-date">
+          <span class="day">15</span>
+          <span class="month">Ноя</span>
+        </div>
+        <div class="event-details">
+          <span class="event-tag">Хакатон</span>
+          <h2>Хакатон: Разработка мини-игры на Python</h2>
+          <p>Собираем команды, пишем код, презентуем проекты. Опытные наставники помогут с архитектурой. Призы и стажировки гарантированы!</p>
+          
+       
+          <div class="event-benefits">
+            <p><strong>Что ты получишь:</strong></p>
+            <ul>
+              <li>➕ Реальный опыт командной разработки в портфолио</li>
+              <li>➕ Знакомство с тимлидами и HR из IT-компаний</li>
+              <li>➕ Бесплатная пицца и мерч</li>
+            </ul>
+          </div>
 
-    <section class="steps-section">
-      <ol class="steps">
-        <li>
+          <p class="event-meta">📍 ауд. 402 | ⏰ 16:00</p>
+        </div>
+      </article>
+
+    
+      <article class="event-card">
+        <div class="event-date">
+          <span class="day">22</span>
+          <span class="month">Ноя</span>
+        </div>
+        <div class="event-details">
+          <span class="event-tag tag-workshop">Воркшоп</span>
+          <h2>Воркшоп: Как пройти собеседование в IT</h2>
+          <p>Практическое занятие с HR-специалистами из крупных компаний. Разберем частые ошибки, потренируем soft skills и составим идеальное резюме.</p>
           
-          <h2>17:00 - Собираемся</h2>
-          <p>Делимся на команды, получаем задачу.</p>
-        </li>
-        <li>
-          
-          <h2>17:30 - Кодим</h2>
-          <p>Кодим, проектируем. Наставники помогают.</p>
-        </li>
-        <li>
-          
-          <h2>19:00 - Презентуем</h2>
-          <p>Показываем результат, жюри выбирает лучших.</p>
-        </li>
-        <li>
-         
-          <h2>19:30 - Еда</h2>
-          <p>Нетворкинг, фотки, разговор с тимлидами.</p>
-        </li>
-      </ol>
-    </section>
-     <section class="disclaimer">
-      <p><strong>Важно:</strong> Не все мероприятия проходят по одному сценарию. В следующий раз тайминг, формат или задания могут измениться - следите за анонсами!</p>
-    </section>
+      
+          <div class="event-benefits">
+            <p><strong>Чему ты научишься:</strong></p>
+            <ul>
+              <li>➕ Правильно отвечать на каверзные вопросы HR</li>
+              <li>➕ Презентовать свои проекты так, чтобы вас взяли</li>
+              <li>➕ Составишь резюме, которое заметят</li>
+            </ul>
+          </div>
+
+          <p class="event-meta">📍 ауд. 115 | ⏰ 18:00</p>
+        </div>
+      </article>
+
+    </div>
   </main>
 </body>
 </html>
